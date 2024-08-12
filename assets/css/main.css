@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #2f3138; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #0e1b4d; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #f82249; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #37A2B2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -34,7 +34,7 @@
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #f82249; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #37A2B2; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -236,7 +236,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 100px;
   margin-right: 8px;
 }
 
@@ -984,7 +984,7 @@ section,
 
 .speakers .member .member-info {
   position: absolute;
-  padding: 15px 0;
+  padding: 15px 10px;
   inset: auto 0 -44px 0;
   background: rgba(0, 0, 0, 0.6);
   transition: 0.4s;
@@ -1166,7 +1166,7 @@ section,
 }
 
 .venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/mmo.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
@@ -1343,14 +1343,14 @@ section,
 
 .sponsors .client-logo img {
   padding: 50px;
-  max-width: 80%;
+  max-width: 90%;
   transition: 0.3s;
 }
 
 @media (max-width: 640px) {
   .sponsors .client-logo img {
     padding: 30px;
-    max-width: 50%;
+    max-width: 70%;
   }
 }
 
