@@ -883,7 +883,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   position: relative;
   padding: 100px 0 0 0;
   display: flex;
@@ -939,8 +939,9 @@ section,
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 90%;
   }
 
   .hero p {
@@ -990,9 +991,14 @@ section,
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+  .hero .about-info {
+    padding: 20px 0;
+  }
+
   .hero .about-info p {
-    max-width: 80%;
+    max-width: 90%;
+    font-size: 16px;
   }
 }
 
