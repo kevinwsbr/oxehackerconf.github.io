@@ -45,7 +45,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
         <a class="logo d-flex align-items-center me-auto" href="index.html">
-            <img alt="" src="assets/img/logo.svg">
+            <img alt="" src="assets/img/logo.png">
         </a>
 
         <nav class="navmenu" id="navmenu">
@@ -75,13 +75,13 @@
         <img alt="" data-aos="fade-in" src="assets/img/hero-bg.jpeg">
 
         <div class="container d-flex flex-column align-items-center text-center mt-auto">
-            <h2 data-aos="fade-up" data-aos-delay="100">0xE HACKER CONFERENCE</h2>
-            <p data-aos="fade-up" data-aos-delay="200">05 de Abril de 2025</p>
+            <h2 id="myCountdown" data-aos="fade-up" data-aos-delay="100"></h2>
+            <p data-aos="fade-up" data-aos-delay="200">para o maior encontro hacker de Alagoas!</p>
         </div>
 
         <div class="about-info mt-auto position-relative">
-
-            <div class="container position-relative" data-aos="fade-up">
+            <div class="container position-relative">
+                <p>5 de Abril de 2025  - Maceió Mar Hotel, Orla de Ponta Verde, Maceió/AL</p>
             </div>
         </div>
 
@@ -363,9 +363,26 @@
 <script src="assets/vendor/aos/aos.js"></script>
 <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
 <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/countdown/simplyCountdown.umd.js"></script>
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+<script>
+    simplyCountdown("#myCountdown", {
+        year: 2025,
+        month: 4,
+        day: 5,
+        hours: 16,
+        inline: true,
+        removeZeroUnits: true,
+        words: {
+            days: { root: 'dia', lambda: (root, n) => n > 1 ? root + 's' : root },
+            hours: { root: 'hora', lambda: (root, n) => n > 1 ? root + 's' : root },
+            minutes: { root: 'minuto', lambda: (root, n) => n > 1 ? root + 's' : root },
+            seconds: { root: 'segundo', lambda: (root, n) => n > 1 ? root + 's' : root }
+        }
+    });
+</script>
 
 </body>
 
