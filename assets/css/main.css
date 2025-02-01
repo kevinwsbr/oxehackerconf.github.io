@@ -1069,6 +1069,11 @@ section,
     bottom: 0;
 }
 
+.speakers .member .img-fluid {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
@@ -1164,6 +1169,8 @@ section,
     transform: translateX(-50%);
     margin-left: 50%;
     transition: all ease-in-out 0.3s;
+    aspect-ratio: 1;
+    object-fit: cover;
 }
 
 .schedule .schedule-item h4 {
