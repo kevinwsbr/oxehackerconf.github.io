@@ -1401,6 +1401,13 @@ section,
     width: 150px;
 }
 
+.sponsors .supporters .client-logo img {
+    background: #fff;
+    border-radius: 16px;
+    height: 120px;
+    object-fit: cover;
+}
+
 @media (max-width: 640px) {
     .sponsors .client-logo img {
         max-width: 200px;
@@ -1417,10 +1424,6 @@ section,
     .sponsors .bronze .client-logo img {
         width: 100px;
     }
-}
-
-.sponsors .client-logo:hover img {
-    transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
