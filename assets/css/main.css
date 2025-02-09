@@ -1389,8 +1389,12 @@ section,
     transition: 0.3s;
 }
 
-.sponsors .gold .client-logo img {
+.sponsors .diamond .client-logo img {
     width: 300px;
+}
+
+.sponsors .gold .client-logo img {
+    width: 250px;
 }
 
 .sponsors .silver .client-logo img {
@@ -1413,8 +1417,12 @@ section,
         max-width: 200px;
     }
 
-    .sponsors .gold .client-logo img {
+    .sponsors .diamond .client-logo img {
         width: 200px;
+    }
+
+    .sponsors .gold .client-logo img {
+        width: 180px;
     }
 
     .sponsors .silver .client-logo img {
