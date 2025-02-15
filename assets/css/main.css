@@ -899,6 +899,7 @@ section,
 
 .hero img {
     position: absolute;
+    object-position: left;
     inset: 0;
     display: block;
     width: 100%;
