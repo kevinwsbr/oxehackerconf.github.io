@@ -1212,7 +1212,7 @@ section,
 }
 
 .venue .venue-info {
-    background: url("../img/mmo.jpg") top center no-repeat;
+    background: url("../img/mas.png") top center no-repeat;
     background-size: cover;
     position: relative;
     padding-top: 60px;
@@ -1386,8 +1386,12 @@ section,
 
 .sponsors .client-logo img {
     padding: 8px;
-    max-width: 300px;
+    max-width: 500px;
     transition: 0.3s;
+}
+
+.sponsors .black .client-logo img {
+    width: 500px;
 }
 
 .sponsors .diamond .client-logo img {
@@ -1419,7 +1423,11 @@ section,
 
 @media (max-width: 640px) {
     .sponsors .client-logo img {
-        max-width: 200px;
+        max-width: 300px;
+    }
+
+    .sponsors .black .client-logo img {
+        width: 300px;
     }
 
     .sponsors .diamond .client-logo img {
